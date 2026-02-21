@@ -27,3 +27,13 @@ a:focus {
   outline: 2px solid #3E2723;
   outline-offset: 2px;
 }
+
+/* Hide Emergent branding badge */
+[class*="emergent"],
+[class*="Emergent"],
+div[style*="position: fixed"][style*="bottom"],
+div[style*="position: fixed"][style*="right"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
